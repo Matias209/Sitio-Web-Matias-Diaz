@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+    <meta charset="utf-8" />
+	<meta name="author" content="Cats" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bd427c0fd7.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Matias Diaz</title>
+</head>
+<body >
+
+	<!----Cabezera---->
+
+	<div class="contenedor">
+		<header>
+			<center><div class="cabezera">
+				<h1>Matias Diaz</h1>
+				<p>Lider de equipos</p>
+				<p>Desarrollador web FRONT END</p>
+				<p>Desarrollador RPA</p>
+				<h4>Haz click en las imagenes para ver detalles</h4>
+				</div></center>
+
+				<!---Barra de busqueda--->
+				<form class="form" action="">
+					<input type="text" class="barra" id="barra" placeholder="Buscar">
+					
+				</form>
+				<!---Filtros--->
+				<div class="filtros" id="filtros">
+					<a href="#" class="activo">Actividad Laboral Actual</a>
+					<a href="skills.html">Skills</a>
+					<a href="Contacto.html">Contacto</a>
+					<a href="yo.html">Sobre mi</a>
+					<a href="objetivos.html">Objetivos</a>
+					
+					
+				</div>
+
+			</header>
+
+			<!----Grid--->
+			<!--Curriculum-->
+			<section class="grid" id="grid">
+				<div class="item"
+				data-categoria=""
+				data-etiquetas="foto"
+				data-descripcion="Team Leader del Regional Support Center (RSC) en Ricoh Operarions Center.">
+				<div class="item-contenido">
+					<p><strong>Team Leader RSC en Ricoh Operations Center</strong></p>
+					<img title="Team Leader" src="imagenes/foto.jpeg">
+				</div>	
+				</div>
+				<!---Ricoh--->
+				<div class="item"
+				data-categoria="experiencia laboral"
+				data-etiquetas="ricoh experiencia laboral Ricoh team leader"
+				data-descripcion= "-Liderar equipos de atencion al cliente y soporte telefonico.<br> 
+				-Supervision de los KPI establecidos por gerencia.<br>
+				-Capacitacion y coaching.<br> 
+				-Llevar a cabo reuniones mensuales con los Country Manager de cada sucursal de Ricoh en LA(OpCo) y presentar los resultados operativos.<br>
+				-Contribucion al desarrollo de Bots para la atencion al cliente y otras gestiones y supervisar su funcionamiento (RPA).<br>
+				-Equipo de 15 personas a cargo.">
+				<div class="item-contenido">
+					<p>Tareas Realizadas</p>
+					<img title="Tareas realizadas" src="imagenes/ricoh.jpg">
+				</div>
+					
+				</div>
+				<!---Aprendizaje-->
+				<div class="item"
+				data-categoria="aprendizaje"
+				data-etiquetas="aprendizaje ricoh experiencia"
+				data-descripcion="-Pensamiento analitico<br>
+				-Elaboracion de estrategia y organizacion del tiempo<br>
+				-Habilidad para negociar<br>
+				-Dar y recibir Feedback<br>
+				-Comunicacion<br>
+				-Pensamiento horizontal<br>
+				-Desarrollo en RPA">
+				<div class="item-contenido">
+					<!--Se debe poner foto que identifique el aprendizaje--->
+					<p>Lo que aprendi hasta el momento</p>
+					<img title="Aprendizaje" src="imagenes/aprendizaje.jpg">
+				</div>
+					
+				</div>
+			</section>
+
+	<section class="overlay" id="overlay">
+			<div class="contenido-img">
+				<button id="btn"><i class="fas fa-times"></i>
+				</button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="js/app.js"></script>
+
+	</body>
+</html>
