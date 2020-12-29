@@ -12,18 +12,6 @@ body {
 
 a {
 	text-decoration: none;
-	color:#9B9B9B;
-}
-
-h3{
-	text-decoration: none;
-	color: #bc1339;
-
-}
-
-p{
-	text-decoration: none;
-	color:#9B9B9B;
 }
 
 /* Caja que contiene las imagenes */
@@ -112,16 +100,12 @@ header{
 	width: 100%;
 	cursor: pointer;
 	vertical-align: top;
-	border-color: #bc1339;
 }
 
 img {
 	width: 200px;
 	height: 250px;
 	max-width: 100%;
-	margin-top: 0px;
-	border-radius: 4px;
-	border-color: #bc1339;
 }
 
 
@@ -150,11 +134,10 @@ img {
 	display: block;
 	background: #fff;
 	padding: 20px;
-	text-align: left;
+	text-align: center;
 	margin-top: 5px;
 	border-radius: 10px;
 	max-width: 50%;
-	color: black;
 }
 
 .contenido-img{
@@ -176,86 +159,7 @@ img {
 
 }	
 
-textarea{
-	width: 350px;
-	height: 350px;
-	padding: 0px;
-	border-radius: 8px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-}
 
-.cont{
-	width: 200px;
-	border-radius: 6px;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.sent {
-	width: 45px;
-	height: 45px;
-	border: none;
-	cursor:pointer;
-	position: absolute;
-	left: 320px;
-	font-size: 20px;
-}
-
-
-/*footer*/
-
-footer .redes-sociales{
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	padding: 20px;
-	flex-wrap: wrap;
-}
-
-
-
-/* iconos de redes sociales*/
-
-footer .redes-sociales .linkedin{
-	
-	display: block;
-	width: 60px;
-	height: 60px;
-	background: #fff;
-	margin: 20px;
-	text-align: center;
-	border-radius: 100px;
-	transition: .3s ease all;
-}
-
- footer .redes-sociales .linkedin i{
-	font-size: 20px;
-	line-height: 60px;
-}
-
-/* hacer girar al icono*/
-
-footer.contenido-icono:hoover .linkedin {
-	animation: icono .5s ease;
-}
-
-/*Rotar icono*/
-
-@keyframes icono {
-	from {
-		transform: rotate3d(0,0,0);
-	}
-	to {
-		transform: rotate3d(0,1,0, 360deg);
-	}
-}
-
-footer .creado-por {
-	margin-bottom: 40px;
-	text-align: center;
-	font-size: 14px;
-	color: #c13584;
-}
 
 
 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+    <meta charset="utf-8" />
+	<meta name="author" content="Cats" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bd427c0fd7.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Cats</title>
+</head>
+<body >
+
+	<!----Cabezera---->
+
+	<div class="contenedor">
+		<header>
+			<center><div class="cabezera">
+				<h1>Special Cats</h1>
+				<p>Razas de gatos</p>
+				</div></center>
+
+				<!---Barra de busqueda--->
+				<form class="form" action="">
+					<input type="text" class="barra" id="barra" placeholder="Buscar">
+					
+				</form>
+				<!---Filtros--->
+				<div class="filtros" id="filtros">
+					<a href="#" class="activo">Todos</a>
+					<a href="abisimio.php">abisimio</a>
+					<a href="angora.php">angora</a>
+					<a href="azulruso.php">azulruso</a>
+					<a href="esfinge.php">esfinge</a>
+					<a href="fold.php">fold</a>
+					<a href="mainecoon.php">mainecoon</a>
+					<a href="persa.php">persa</a>
+					<a href="angora.php">angora</a>
+					<a href="somali.php">somali</a>
+					
+				</div>
+		</header>
+		<section class="grid" id="grid">
+			<div class="item"
+			data-categoria="abisimio"
+			data-etiquetas="gatos gatitos abisimio raza egipcio pelo corto"
+			data-descripcion = "Elegante, jugueton y exotico"
+			>
+
+			<div class="item-contenido">
+				<img src="imagenes/abisinio.jpg">
+				
+			</div>
+			</div>
+
+			<div class="item"
+			data-categoria="angora"
+			data-etiquetas="gatos gatitos raza pelo largo peludo angora ojos azules"
+			data-descripcion="Considerado un tesoro nacional para el pueblo persa, la raza angora es la mas antigua de Turquia"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/angora.jpg">
+				
+			</div>
+
+			</div>
+			<div class="item"
+			data-categoria="azulruso"
+			data-etiquetas="gatos gatitos raza pelo corto azul ruso gris ojos azules"
+			data-descripcion="Inteligente, afectuoso e historico"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/azulruso.jpg">
+				
+			</div>
+		</div>
+			
+			<div class="item"
+			data-categoria="esfinge"
+			data-etiquetas="gatos gatitos raza sin pelo egipcio esfinge"
+			data-descripcion="Considerado un tesoro nacional para el pueblo persa, la raza angora es la mas antigua de Turquia"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/esfinge.jpg">
+				
+			</div>
+		</div>
+		<div class="item"
+			data-categoria="fold"
+			data-etiquetas="gatos gatitos raza pelo largo peludo fold escoces scotish"
+			data-descripcion="Su cara redonda y sus pequenas orejas plegadas hacen de este felino, unico y adorable."
+			>
+			<div class="item-contenido">
+				<img src="imagenes/fold.jpg">
+				
+			</div>
+		</div>
+		<div class="item"
+			data-categoria="mainecoon"
+			data-etiquetas="gatos gatitos raza pelo largo peludo angora ojos azules mainecoon maine coon grandes gordos"
+			data-descripcion="Originaria de Estados Unidos, es conocida por ser la raza de gato domestico mas grande del mundo"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/mainecoon.jpg">
+				
+			</div>
+		</div>
+		<div class="item"
+			data-categoria="persa"
+			data-etiquetas="gatos gatitos raza pelo largo peludo persa"
+			data-descripcion="Peludos, de cara ancha y plana, sus origenes datan del 1620"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/persa.jpg">
+				
+			</div>
+		</div>
+
+		<div class="item"
+			data-categoria="ragdoll"
+			data-etiquetas="gatos gatitos raza pelo largo peludo angora ojos azules ragdoll"
+			data-descripcion="Un gato tranquilo, casero y docil. No sera buen cazador pero si buen amigo"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/ragdoll.jpg">
+				
+			</div>
+		</div>
+		<div class="item"
+			data-categoria="somali"
+			data-etiquetas="gatos gatitos raza somali"
+			data-descripcion="Firme, agil, elegante y con buena musculatura"
+			>
+			<div class="item-contenido">
+				<img src="imagenes/somali.jpg">
+				
+			</div>
+		</div>
+
+		</section>
+		<section class="overlay" id="overlay">
+			<div class="contenido-img">
+				<button id="btn"><i class="fas fa-times"></i>
+				</button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+		
+	</div>
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="js/app.js"></script>
+
+	</body>
+</html>
