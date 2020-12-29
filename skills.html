@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+    <meta charset="utf-8" />
+	<meta name="author" content="Cats" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bd427c0fd7.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<title>Skills</title>
+</head>
+
+<body>
+	<!----Cabezera---->
+
+	<div class="contenedor">
+		<header>
+			<center><div class="cabezera">
+				<h1>Skills</h1>
+				<p>Lider de equipos</p>
+				<p>Desarrollador web FRONT END</p>
+				<p>Desarrollador RPA</p>
+				<h4>Haz click en las imagenes para ver detalles</h4>
+				</div></center>
+
+				<!---Barra de busqueda--->
+				<form class="form" action="">
+					<input type="text" class="barra" id="barra" placeholder="Buscar">
+					
+				</form>
+				<!---Filtros--->
+				<div class="filtros" id="filtros">
+					<a href="#" class="activo">Skills</a>
+					<a href="index.html">Actividad Laboral Actua</a>
+					<a href="Contacto.html">Contacto</a>
+					<a href="yo.html">Sobre mi</a>
+					<a href="objetivos.html">Objetivos</a>
+					
+					
+				</div>
+
+			</header>
+
+			<!----Grid--->
+		
+			<section class="grid" id="grid">
+				<div class="item"
+				data-categoria=""
+				data-etiquetas="foto"
+				data-descripcion="-Liderazgo.<br>
+				Capacidad para mantener la calma en situaciones que pueden generar estres y presion.<br>-Autocontrol en situaciones dificiles.<br> -Automotivacion<br>
+				-Realizar varias tareas al mismo tiempo">
+				<div class="item-contenido">
+					<p><strong>Liderazgo</strong></p><br>
+					<img title="Liderazgo" src="imagenes/lider.jpg">
+				</div>	
+				</div>
+				<!---Ricoh--->
+				<div class="item"
+				data-categoria="experiencia laboral"
+				data-etiquetas="ricoh experiencia laboral Ricoh team leader"
+				data-descripcion= "Automatizacion de procesos.">
+				<div class="item-contenido">
+					<p><strong>Desarrollo RPA en UIpath</strong></p><br>
+					<img title="Automatizacion de procesos" src="imagenes/control.jpg">
+				</div>
+					
+				</div>
+				<!---Aprendizaje-->
+				<div class="item"
+				data-categoria="aprendizaje"
+				data-etiquetas="aprendizaje ricoh experiencia"
+				data-descripcion="-HTML<br>
+				-CSS<br>
+				-Javascript<br>
+				-Angular<br>
+				-Jquery<br>
+				-Python<br>
+				-Django<br>
+				-MySQL<br>
+				-SQLite<br>">
+				<div class="item-contenido">
+					<!--Se debe poner foto que identifique el aprendizaje--->
+					<p><strong>Desarrollo web en Javascript & Angular</strong></p>
+					<img title="Front End" src="imagenes/developer.jpg">
+				</div>
+					
+				</div>
+			</section>
+
+				<section class="overlay" id="overlay">
+			<div class="contenido-img">
+				<button id="btn"><i class="fas fa-times"></i>
+				</button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
