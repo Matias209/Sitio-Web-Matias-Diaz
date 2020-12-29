@@ -1,0 +1,183 @@
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+	background: #f3f3f3; 
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+	text-decoration: none;
+	color:#9B9B9B;
+}
+
+/* Caja que contiene las imagenes */
+
+.contenedor{
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+
+/*header*/
+
+header{
+	padding: 40px;
+}
+
+.logo{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.logo p{
+	color:#9B9B9B;
+}
+
+.form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+ .barra{
+ 	width: 70%;
+ 	height: 40%;
+ 	line-height: 40px;
+ 	background: #fff;
+ 	padding: 0px 20px;
+ 	border-radius: 100px;
+ 	border:none;
+ 	text-align: center;
+ 	font-size: 16px;
+ }
+
+ .filtros{
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ }
+
+ .filtros a{
+ 	color:#9B9B9B;
+ 	margin: 10px 20px;
+ 	font-size: 18px;
+ 	font-weight: 700;
+ }
+ .filtros a.activo{
+ 	color: #000;
+ }
+
+ /*Estilos de la grid */
+
+ .grid {
+ 	position: relative;
+ 	width: 100%;
+ 	opacity:0;
+ 	transition: opacity 0.5s linear 1s;
+ }
+
+ .imagenes-cargadas{
+ 	opacity: 1;
+ }
+
+ .item{
+ 	position: absolute;
+ 	display: block;
+ 	padding: 0;
+ 	margin:10px;
+ 	width: calc(33.3333333% - 20px);
+ }
+
+.item-contenido{
+	position: relative;
+}
+
+.item img {
+	width: 100%;
+	cursor: pointer;
+	vertical-align: top;
+	border-color: #bc1339;
+}
+
+img {
+	width: 200px;
+	height: 250px;
+	max-width: 100%;
+	margin-top: 0px;
+	border-radius: 4px;
+	border-color: #bc1339;
+}
+
+
+/*Trabajando con el overlay */
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.9);
+	width: 100%;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.overlay.activo {
+	display: flex;
+}
+
+
+.descripcion {
+	display: block;
+	background: #fff;
+	padding: 20px;
+	text-align: left;
+	margin-top: 5px;
+	border-radius: 10px;
+	max-width: 50%;
+	color: black;
+}
+
+.contenido-img{
+	position: relative;
+
+}
+
+.overlay #btn{
+	background: none;
+	font-size: 20px;
+	color:#fff;
+	border: none;
+	cursor:pointer;
+	position: absolute;
+	right: -20px;
+	top:-20px;
+
+
+
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
